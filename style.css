@@ -101,6 +101,94 @@ main>section{
     font-weight: 500;
 }
 
+.facts-container{
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+}
+.fact-card{
+    border: 1px solid rgba(255, 144, 14, 1);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-right: 125px;
+    height: 240px;
+    width: 240px;
+    border-radius: 8px ;
+
+}
+.fact-number{
+    font-weight: 600;
+    font-size:2.8rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.fact-description{
+    max-width: 540px;
+    margin-bottom: 100px;
+}
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.spon{
+    max-width: 542px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.spon-logos{
+    display: flex;
+    justify-content: space-around;
+}
+
+#line{
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 10px;
+}
+.features{
+    display: flex;
+}
+.task{
+    max-width: 568px;
+    max-height: 171px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    padding: 30px 30px 30px 42px ;
+    margin: 20px;
+    margin-right: 145px;
+}
+
+.btn-sec{
+    max-width: 342px;
+    max-height: 200px;
+    padding: 45px 42px;
+    background-color: rgba(255, 144, 14, 1);
+    border: none;
+    border-radius: 8px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#year{
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+}
+#exp{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.archi-img{
+    width: 100%;
+}
 
 
 
@@ -115,4 +203,17 @@ main>section{
     .our-features{
         margin-left: 20px;
     }
+    .facts-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        gap: 20px;
+    }
+    .spon-logos{
+        display: grid;
+        grid-template-rows: repeat(1,1fr) ;
+        gap: 20px;
+        justify-items: center;
+    }
+    
 }
